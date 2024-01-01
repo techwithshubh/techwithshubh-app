@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/techwithshubh-app/",
+  //base: import.meta.env.MODE ? "" : "/techwithshubh-app/",
   plugins: [react()],
 })
